@@ -1,1 +1,41 @@
+<html>
+<head><title>CSS blur</title>
+  <style type="text/css">
+<!--
+.title{
+	color: transparent;
+	background-image:linear-gradient(90deg, #A84444 10%,#A86544 20%,#A89844 30%,#88A844 40%,#51A844 50%,#44A865 60%,#44A89A 70%,#4469A8 80%,#6D44A8 90%, #A8447E 100%);
+	-webkit-background-clip: text;
+	background-size: 200% 100%;
+	animation: load 4s infinite linear;
+}
+@keyframes load{
+	0%{
+		background-position: 0 0;
+	}
+	100%{
+		background-position: -200% 0;
+	}
+}
+.container:hover img{
+	filter: blur(2px); //2px可根据效果自行定义
+}
+.container{
+  text-align: center;
+}
+/*这里是设置CSS的样式内容*/
+-->
+</style>
 
+</head>
+<body>
+  <div class="container">
+	<img src="image/header.png" width="600px">
+	<div class="box">
+		<div class="content">
+			<h2 class="title">MORE PICTURES IN THERE.</h2>
+		</div>
+	</div>
+</div>
+</body>
+</html>
